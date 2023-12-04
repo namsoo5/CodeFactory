@@ -39,61 +39,18 @@
 			<true/>
 		</dict>
 		<dict>
-			<key>RequiredOptions</key>
-			<dict>
-				<key>Setting</key>
-				<string>false</string>
-			</dict>
-			<key>Identifier</key>
-			<string>ViewWithReducer</string>
-			<key>Name</key>
-			<string>create reducer</string>
-			<key>Description</key>
-			<string>create reducer file</string>
-			<key>Type</key>
-			<string>checkbox</string>
 			<key>Default</key>
-			<string>true</string>
-			<key>NotPersisted</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_productName:identifier___View</string>
+			<string>___VARIABLE_productName:identifier___Service</string>
 			<key>Description</key>
-			<string>view이름</string>
+			<string>Service이름</string>
 			<key>Identifier</key>
-			<string>viewName</string>
+			<string>service</string>
 			<key>Name</key>
-			<string>View Name:</string>
+			<string>Service Name:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
 			<string>static</string>
-			<key>RequiredOptions</key>
-			<dict>
-				<key>ViewWithReducer</key>
-				<string>true</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>Default</key>
-			<string>___VARIABLE_productName:identifier___Reducer</string>
-			<key>Description</key>
-			<string>reducer이름</string>
-			<key>Identifier</key>
-			<string>reducerName</string>
-			<key>Name</key>
-			<string>Reducer Name:</string>
-			<key>Required</key>
-			<true/>
-			<key>Type</key>
-			<string>static</string>
-			<key>RequiredOptions</key>
-			<dict>
-				<key>ViewWithReducer</key>
-				<string>true</string>
-			</dict>
 		</dict>
 	</array>
 </dict>
