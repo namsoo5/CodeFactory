@@ -18,11 +18,11 @@ xcodeTemplate () {
   cp -R $SCRIPT_DIR/*.xctemplate "$XCODE_TEMPLATE_DIR"
   
   # Reducer, View 템플릿 파일을 Feature폴더에 복사합니다.
-  cp -R $SCRIPT_DIR/TCAView.xctemplate/* "$XCODE_TEMPLATE_DIR/MMM.xctemplate/___FILEBASENAME___Feature/"
+  cp -R $SCRIPT_DIR/TCAView.xctemplate/* "$XCODE_TEMPLATE_DIR/MMM.xctemplate/Feature/"
   # UseCase 템플릿 파일을 복사합니다
-  cp -R $SCRIPT_DIR/UseCase.xctemplate/* "$XCODE_TEMPLATE_DIR/MMM.xctemplate/___FILEBASENAME___Domain/"
+  cp -R $SCRIPT_DIR/UseCase.xctemplate/* "$XCODE_TEMPLATE_DIR/MMM.xctemplate/Domain/"
   # Service 템플릿 파일을 복사합니다
-  cp -R $SCRIPT_DIR/Service.xctemplate/* "$XCODE_TEMPLATE_DIR/MMM.xctemplate/___FILEBASENAME___Service/"
+  cp -R $SCRIPT_DIR/Service.xctemplate/* "$XCODE_TEMPLATE_DIR/MMM.xctemplate/Service/"
 }
 
 
