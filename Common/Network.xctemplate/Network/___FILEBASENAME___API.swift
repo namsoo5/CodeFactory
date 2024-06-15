@@ -14,7 +14,7 @@ protocol ___VARIABLE_productName___API {
     var encoding: ParameterEncoding { get }
 }
 
-extension MAPI {
+extension ___VARIABLE_productName___API {
     var encoding: ParameterEncoding { URLEncoding.default }
     var header: HTTPHeaders? { nil }
     var urlRequest: URLConvertible {
